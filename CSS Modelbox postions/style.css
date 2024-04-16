@@ -1,0 +1,20 @@
+.box1{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    border: 10px solid rgba(0, 0, 0, 0);
+    outline-offset: 10px;
+    outline: 10px dotted greenyellow;
+    margin: 20px;
+    line-height: 200px;
+    text-align: center;
+}
+
+#box{
+    background-color: magenta;
+}
+
+#box2{
+    background-color: magenta;
+}

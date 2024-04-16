@@ -1,0 +1,106 @@
+<h2>A. O que é Internet e WEB? São as mesmas coisas? Explique de forma clara e evidencie as diferenças</h2>
+
+R:  É como uma biblioteca global, onde livros, artigos, vídeos e outros conteúdos se juntam. Essa biblioteca é a Web, um universo de informações acessível através de softwares como Chrome, Firefox e Safari.
+Para navegar nesse universo, você precisa de uma estrada digital, uma rede de computadores interligados que se estende por todo o planeta. Essa estrada é a Internet, a infraestrutura que permite a troca de dados e mensagens entre dispositivos, como smartphones, tablets e computadores, atraves do protocolo HTTP.
+
+<h2>B. O que é arquitetura cliente-servidor utilizada na web ? Explique o carregamento de uma página passo a passo</h2>
+
+R: A arquitetura cliente-servidor na web refere-se à distribuição de funções entre um cliente e um servidor. O cliente solicita recursos, e o servidor fornece esses recursos. O carregamento de uma página web se baseia nos seguintes passos:
+
+O (cliente) envia uma solicitação HTTP para o servidor, depois o servidor processa a solicitação e responde de volta com os arquivos necessários, como HTML, CSS e JavaScript, assim o navegador interpreta o HTML para construir e estruturar a página solicitando possiveis recursos adicionais, como imagens, scripts e estilo de letras, por fim renderizando a página,e exibindo-a para o usuário. 
+
+<h2>C. O que é um tag HTML?</h2>
+
+R: Tags HTML são como instruções especiais que você dá para um navegador web. Elas informam ao navegador como exibir o conteúdo da sua página. As tags são geralmente compostas por um nome entre colchetes angulares, como <tag></tag>
+
+<h2>D.  O que é HTML e qual a estrutura básica de um documento HTML?</h2>
+
+R: HTML (Hypertext Markup Language) é uma linguagem de marcação usada para estruturar o conteúdo em páginas web e sua estrutura basica é:
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Título da Página</title>
+    </head>
+    <body>
+        <!-- Conteúdo da Página -->
+    </body>
+</html>
+
+<h2>E. Discuta com colega o que são tags semânticas do HTML.</h2>
+
+R: Trecos chatos que os nerds inventaram para dar significado à sua bagunça de código. Elas podem ajudar a organizar sua bagunça e deixar tudo mais claro para os outros. Exemplos incluem <header>, <nav>, <article>, <section>, <footer>, entre outras. Elas tornam o código mais legível para desenvolvedores.
+
+<h2>F. Explique como é criado um link no HTML sobre um parágrafo.</h2>
+
+R: Para criar um link em HTML sobre um parágrafo, você utiliza a tag <a> (âncora). Exemplo: <p>Paráfrafo <a href="https://www.exemplo.com">link</a>.</p>
+
+<h2>G. Implemente as seguintes listas em HTML</h2>
+
+<ol type="a">
+    <li></li>
+    <li></li>
+    <li></li>
+</ol>
+
+<ol type="I">
+    <li></li>
+    <li></li>
+    <li></li>
+</ol>
+
+<ul>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>
+
+<h2>H. Crie uma página biográfica que inclui um cabeçalho com seu nome, uma breve descrição em um parágrafo, e uma lista de hobbies ou interesses.
+</h2>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biografia - [Seu Nome]</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        header {
+            text-align: center;
+            background-color: #f2f2f2;
+            padding: 10px;
+        }
+        p {
+            line-height: 1.5;
+        }
+        h2 {
+            color: #000000;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Luigi Vicenzo Schramm Pancracio </h1>
+    </header>
+
+    <section>
+        <h2>Sobre Mim</h2>
+        <p>Me chamo Luigi Vicenzo Schramm Pancracio, uma pessoa que gosta da tecnologia e hardware, onde ao longo da minha vida sempre estive em contato com a tecnologia desde criança, por isso busco aprender e explorar novas tecnologias que me fascinem para eu trabalhar futuramente.</p>
+    </section>
+
+    <section>
+        <h2>Hobbies e Interesses</h2>
+        <ul>
+            <li>Jogar Videogames</li>
+            <li>Programação</li>
+            <li>Sair com os amigos</li>
+            <li>Explorar Novas Tecnologias</li>
+            <li>Se informar da geopolitica mundial</li>
+        </ul>
+    </section>
+</body>
+</html>
